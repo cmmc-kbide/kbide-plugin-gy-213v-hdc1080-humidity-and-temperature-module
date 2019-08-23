@@ -1,0 +1,17 @@
+{
+  "name" : "kbide-plugin-gy-213v-hdc1080-humidity-and-temperature-module",
+  "title": "gy-213v-hdc1080-humidity-and-temperature-module",
+  "keywords": "gy-213v-hdc1080-humidity-and-temperature-module, esp32, esp8266, arduino",
+  "description": "gy-213v-hdc1080-humidity-and-temperature-module plugin for KB-IDE",
+  "category":"",
+  "git": "https://github.com/cmmc-kbide/kbide-plugin-gy-213v-hdc1080-humidity-and-temperature-module/",
+  "author": "cmmakerclub",
+  "email": "",
+  "url": "https://github.com/cmmc-kbide/kbide-plugin-gy-213v-hdc1080-humidity-and-temperature-module/",
+  "version": "1.0.0",
+  "board" : "",
+  "platform": ["arduino-esp32"],
+  "license": "",
+  "image" : "/static/display.png",
+  "homepage": "http://www.kbide.org"
+}
