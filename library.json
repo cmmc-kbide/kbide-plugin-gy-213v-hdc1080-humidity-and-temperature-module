@@ -5,13 +5,13 @@
   "description": "gy-213v-hdc1080-humidity-and-temperature-module plugin for KB-IDE",
   "category":"",
   "git": "https://github.com/cmmc-kbide/kbide-plugin-gy-213v-hdc1080-humidity-and-temperature-module/",
-  "author": "cmmakerclub",
+  "author": "er9xto",
   "email": "",
   "url": "https://github.com/cmmc-kbide/kbide-plugin-gy-213v-hdc1080-humidity-and-temperature-module/",
   "version": "1.0.0",
   "board" : "",
   "platform": ["arduino-esp32"],
-  "license": "",
+  "license":"https://github.com/closedcube/ClosedCube_HDC1080_Arduino",
   "image" : "/static/display.png",
   "homepage": "http://www.kbide.org"
 }
