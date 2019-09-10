@@ -1,6 +1,6 @@
 Blockly.JavaScript['hbc1080'] = function(block) {
   var variable_hdc10801 = Blockly.JavaScript.variableDB_.getName(block.getFieldValue('HDC10801'), Blockly.Variables.NAME_TYPE);
-  var value_hbc1080add = Blockly.JavaScript.valueToCode(block, 'HBC1080ADD', Blockly.JavaScript.ORDER_ATOMIC);
+  var text_hdc1080add = block.getFieldValue('HDC1080ADD');
   var value_hbc1080sda = Blockly.JavaScript.valueToCode(block, 'HBC1080SDA', Blockly.JavaScript.ORDER_ATOMIC);
   var value_hbc1080scl = Blockly.JavaScript.valueToCode(block, 'HBC1080SCL', Blockly.JavaScript.ORDER_ATOMIC);
   // TODO: Assemble JavaScript into code variable.
@@ -13,7 +13,7 @@ Blockly.JavaScript['hbc1080'] = function(block) {
 ClosedCube_HDC1080 ${variable_hdc10801};
 #END
 Wire.begin(${value_hbc1080sda},${value_hbc1080scl});\n
-${variable_hdc10801}.begin(0x${value_hbc1080add});
+${variable_hdc10801}.begin(${text_hdc1080add});
 
 
 \n

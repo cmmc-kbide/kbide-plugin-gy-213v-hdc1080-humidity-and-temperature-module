@@ -2,10 +2,8 @@ Blockly.Blocks['hbc1080'] = {
   init: function() {
     this.appendDummyInput()
         .appendField(new Blockly.FieldVariable("HDC10801", null,["Plugin.HDC1080"], ["Plugin.HDC1080"]), "HDC10801")
-        .appendField("begin");
-    this.appendValueInput("HBC1080ADD")
-        .setCheck(["uint8_t", "Number"])
-        .appendField("ADD");
+        .appendField("begin ADD")
+        .appendField(new Blockly.FieldTextInput("0x40"), "HDC1080ADD");
     this.appendValueInput("HBC1080SDA")
         .setCheck("Number")
         .appendField("SDA PIN");
